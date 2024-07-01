@@ -2,7 +2,11 @@ module:
     hugoVersion:
         extended: true
         min: "0.85.0"
-
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
 params:
     mainSections:
         - post
